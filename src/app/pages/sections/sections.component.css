@@ -1,0 +1,314 @@
+/* Sobre mi */
+
+.sobre-mi {
+    height: auto;
+    padding: 10px;
+    padding-top: 80px;
+    padding-bottom: 80px;
+}
+
+/* Experiencia */
+
+.experiencia {
+    padding: 40px 40px 60px 40px;
+}
+
+.experiencia .columna {
+    padding: 20px;
+    border: 2px solid #8080804d;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    transition: all 0.2s ease-in;
+}
+
+.experiencia .columna:hover {
+    color: white;
+    background-color: #1b1b32;
+}
+
+.experiencia i {
+    font-size: 2.5rem;
+    color: #7ade30;
+    background-color: #0a0a23;
+    padding: 8px 19px;
+    border-radius: 50%;
+}
+
+.experiencia-titulo {
+    font-size: 25px;
+    font-weight: bold;
+    margin: 10px 0;
+}
+
+.badges-contenedor {
+    padding: 20px;
+    border: 2px solid #8080804d;
+    font-weight: 600;
+    margin: 10px 0;
+
+}
+
+.badges-contenedor:hover {
+    color: white;
+    background-color: rgb(26, 61, 99);
+}
+
+.badge {
+    background: rgb(55, 122, 194);
+}
+
+
+
+/* servicios */
+
+.servicios {
+    padding-top: 70px;
+    padding-bottom: 70px;
+}
+
+.servicios img {
+    /* padding: 1px; */
+    height: 483px;
+    transition: all 0.2s ease;
+}
+
+.nosotros {
+    padding-top: 70px;
+    padding-bottom: 70px;
+}
+
+.overlay {
+    transition: all 0.2s ease;
+    opacity: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+.overlay p {
+    font-size: 25px;
+    font-weight: bold;
+    margin-bottom: 0;
+}
+
+.proyecto {
+    position: relative;
+}
+
+.proyecto:hover img {
+    opacity: 0.2;
+}
+
+.proyecto:hover .overlay {
+    opacity: 1;
+}
+
+.overlay .iconos-contenedor {
+    display: flex;
+}
+
+.overlay i {
+    color: black;
+    font-size: 60px;
+    margin: 10px;
+}
+
+/* Articulos */
+
+.articulos {
+    min-height: 500px;
+    padding: 30px;
+}
+
+.articulos .card {
+    width: 80%;
+    max-width: 600px;
+    margin: 20px;
+}
+
+.articulos .card-header {
+    font-weight: bold;
+}
+
+/* Testimonios */
+
+.testimonios {
+    padding: 40px 40px 80px 40px;
+}
+
+
+.testimonio-imagen {
+    height: 150px;
+    width: 150px;
+    margin: 10px 10px 20px 10px;
+}
+
+.testimonio-texto {
+    max-width: 70%;
+    font-size: 20px;
+    text-align: center;
+    font-family: 'Share Tech Mono', monospace;
+}
+
+.testimonio-info {
+    font-weight: bold;
+    text-align: center;
+}
+
+.testimonio-info p {
+    margin-bottom: 0;
+}
+
+.testimonio-footer .cliente {
+    font-size: 1.2rem;
+}
+
+.testimonio-info .cargo {
+    font-size: 0.9rem;
+    color: #656060;
+}
+
+/* Contacto */
+.contacto .row {
+    width: 100%;
+    display: flex;
+    align-items: center;
+}
+
+.contacto .descripcion {
+    color: white;
+    font-size: 1.2rem;
+}
+
+.contacto button {
+    color: white;
+    font-weight: bold;
+    background-color: transparent;
+    border: 2px solid white;
+    padding: 10px 15px;
+    margin: 5px;
+    border-radius: 50px;
+    transition: all 0.2s ease-in-out;
+}
+
+.contacto button:hover {
+    background-color: white;
+    color: black;
+}
+
+.contacto button i {
+    color: white;
+    font-size: 1.3rem;
+    transition: all 0.2s ease-in-out;
+}
+
+.contacto button:hover i {
+    color: black;
+}
+
+.contactos {
+    padding-top: 70px;
+    padding-bottom: 70px;
+}
+
+
+/* // `sm` applies to x-small devices (portrait phones, less than 576px) */
+@media (max-width: 575.98px) {
+
+    .servicios img {
+        /* padding: 1px; */
+        height: 100%;
+        transition: all 0.2s ease;
+    }
+
+    .tamanio {
+        font-size: 12px;
+    }
+
+    .text-sec {
+        font-size: 15px;
+    }
+
+    .text-pri {
+        font-size: 16px;
+    }
+
+    .campania {
+        font-family: 'Alfa Slab One', cursive;
+        /* font-weight: bold; */
+        background: hsla(211, 96%, 62%, 1);
+
+        background: linear-gradient(90deg, hsla(211, 96%, 62%, 1) 0%, hsla(295, 94%, 76%, 1) 100%);
+
+        background: -moz-linear-gradient(90deg, hsla(211, 96%, 62%, 1) 0%, hsla(295, 94%, 76%, 1) 100%);
+
+        background: -webkit-linear-gradient(90deg, hsla(211, 96%, 62%, 1) 0%, hsla(295, 94%, 76%, 1) 100%);
+
+        filter: progid: DXImageTransform.Microsoft.gradient(startColorstr="#439CFB", endColorstr="#F187FB", GradientType=1);
+
+    }
+}
+
+/* // `md` applies to small devices (landscape phones, less than 768px) */
+@media (max-width: 767.98px) {
+    .servicios img {
+        /* padding: 1px; */
+        height: 100%;
+        transition: all 0.2s ease;
+    }
+}
+
+/* // `lg` applies to medium devices (tablets, less than 992px) */
+@media (max-width: 991.98px) {
+    .sobre-mi .seccion-titulo {
+        text-align: center;
+    }
+
+    .sobre-mi {
+        padding-top: 70px;
+        padding-bottom: 70px;
+    }
+
+    .proyectos-recientes {
+        padding: 40px;
+        padding-top: 70px;
+    }
+}
+
+/* // `xl` applies to large devices (desktops, less than 1200px) */
+@media (max-width: 1199.98px) {}
+
+/* // `xxl` applies to x-large devices (large desktops, less than 1400px) */
+@media (max-width: 1499.98px) {}
+
+.text-sec {
+    color: rgb(229, 229, 53);
+}
+
+.whatsapp-link a {
+    color: white;
+    text-decoration: none;
+    transition: all 0.2s ease-in;
+}
+
+.whatsapp-link i {
+    color: white;
+    /* background-color: darkgreen; */
+    transition: all 0.2s ease-in;
+}
+
+.campania {
+    font-size: 1.6rem;
+    font-family: 'Alfa Slab One', cursive;
+    /* font-weight: bold; */
+    background: hsla(211, 96%, 62%, 1);
+    background: linear-gradient(90deg, hsla(211, 96%, 62%, 1) 0%, hsla(295, 94%, 76%, 1) 100%);
+    background: -moz-linear-gradient(90deg, hsla(211, 96%, 62%, 1) 0%, hsla(295, 94%, 76%, 1) 100%);
+    background: -webkit-linear-gradient(90deg, hsla(211, 96%, 62%, 1) 0%, hsla(295, 94%, 76%, 1) 100%);
+    filter: progid: DXImageTransform.Microsoft.gradient(startColorstr="#439CFB", endColorstr="#F187FB", GradientType=1);
+
+}

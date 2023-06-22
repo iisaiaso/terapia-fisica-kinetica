@@ -1,0 +1,23 @@
+.navbar {
+    padding: 0px;
+}
+
+.nav-link {
+    font-size: 17px;
+    font-weight: 400;
+    font-weight: 500;
+    text-decoration: none;
+    /* color: white; */
+    color: rgb(55, 122, 194);
+    transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out;
+}
+
+.bg-darkg {
+    background: rgb(41, 50, 56);
+}
+
+nav li a:hover {
+    /* color: rgb(105, 104, 104); */
+    color: rgb(217, 150, 42);
+
+}

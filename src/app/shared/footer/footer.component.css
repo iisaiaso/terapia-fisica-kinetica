@@ -1,0 +1,109 @@
+/* Pie de pagina (footer) */
+.whatsapp-link {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: green;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.whatsapp-link:hover {
+    background-color: darkgreen;
+}
+
+.footer-texto {
+    font-size: 1.1rem;
+    font-family: 'Quicksand', sans-serif;
+}
+
+.iconos-redes-sociales a {
+    width: 40px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 2px;
+    margin: 5px;
+    border: 2px solid white;
+    border-radius: 50%;
+    transition: all 0.2s ease-in;
+}
+
+.iconos-redes-sociales i {
+    color: white;
+    font-size: 1.25rem;
+    transition: all 0.2s ease-in;
+}
+
+.iconos-redes-sociales a:hover {
+    background-color: white;
+    border: 2px solid rgb(13, 110, 253);
+}
+
+.iconos-redes-sociales a:hover i {
+    color: black;
+}
+
+.derechos-de-autor {
+    font-size: 15px;
+    color: #aeaeae;
+    /* padding-top: 0%; */
+}
+
+.nav-item {
+    /* padding: 40px 10px 10px 10px; */
+    color: rgb(55, 122, 194);
+    font-weight: 600;
+    /* font-size: 1.02rem; */
+}
+
+.navegacion {
+    display: flex;
+    -webkit-box-align: center;
+    align-items: center;
+    flex-wrap: wrap;
+    -webkit-box-pack: center;
+    justify-content: center;
+}
+
+ul {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+a:hover {
+    /* background: tomato; */
+    /* color: rgb(105, 104, 104); */
+    color: rgb(217, 150, 42);
+
+}
+
+.footer-titulo {
+    font-size: 2rem;
+    font-family: 'Rubik Dirt', cursive;
+}
+
+/* 
+<div class="">
+        <div class="badges-contenedor">
+            <div class="badge">Lesiones de hombro</div><br>
+            <div class="badge">Lesión del manguito de los rotadores/bursitis
+                subacromial</div><br>
+            <div class="badge">Rotura del rodete glenoideo</div><br>
+            <div class="badge">Lesiones del codo</div><br>
+            <div class="badge">Epicondilitis</div><br>
+            <div class="badge">Epitrocleítis</div><br>
+            <div class="badge">Dedo en martillo</div><br>
+            <div class="badge">Síndrome piriforme</div><br>
+            <div class="badge">Lesión en el muslo</div><br>
+            <div class="badge">Dolor en la parte anterior de la rodilla</div><br>
+            <div class="badge">Dolor en las espinillas</div><br>
+            <div class="badge">Tendinitis aquílea</div><br>
+            <div class="badge">Fracturas del pie por fatiga</div><br>
+            <div class="badge">Dedo de césped</div><br>
+        </div>
+    </div> */
