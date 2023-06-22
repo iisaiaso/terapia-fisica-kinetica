@@ -71,13 +71,15 @@
     <div id="carouselExampleInterval" class="carousel slide mt-2 col-12 col-md-4" data-bs-ride="carousel">
         <div class="carousel-inner">
             <div class="carousel-item " data-bs-interval="10000">
-                <video class="w-100" autoplay loop muted>
+                <video class="w-100" autoplay loop controls muted>
                     <source src="../assets/img/video.mp4" type="video/mp4" />
+                    Formato de vídeo no soportado.
                 </video>
             </div>
             <div class="carousel-item active" data-bs-interval="10000">
-                <video class="w-100" autoplay loop muted>
+                <video class="w-100" autoplay loop controls muted>
                     <source src="../assets/img/video1.mp4" type="video/mp4" />
+                    Formato de vídeo no soportado.
                 </video>
             </div>
             <!-- <div class="carousel-item" data-bs-interval="2000">
@@ -223,7 +225,7 @@
                     <div class="row mb-3">
                         <div class="d-flex justify-content-center col-12 col-lg-6 mb-1 mb-lg-0">
                             <input class="btn btn-md btn-primary w-100 py-md-2" type="submit" value="Agendar">
-                            <input type="hidden" name="_next" value="http://localhost:4200/confirmacion">
+                            <input type="hidden" name="_next" value="https://kinetica-e5f91.web.app/confirmacion">
                             <input type="hidden" name="_subject" value="RECERVACIONES DE CITA DE KINETIKA!!"
                                 (click)="enviar()">
                         </div>
