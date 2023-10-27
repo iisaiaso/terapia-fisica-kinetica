@@ -1,0 +1,14 @@
+.campania {
+    font-family: 'Alfa Slab One', cursive;
+    /* font-weight: bold; */
+    background: hsla(211, 96%, 62%, 1);
+
+    background: linear-gradient(90deg, hsla(211, 96%, 62%, 1) 0%, hsla(295, 94%, 76%, 1) 100%);
+
+    background: -moz-linear-gradient(90deg, hsla(211, 96%, 62%, 1) 0%, hsla(295, 94%, 76%, 1) 100%);
+
+    background: -webkit-linear-gradient(90deg, hsla(211, 96%, 62%, 1) 0%, hsla(295, 94%, 76%, 1) 100%);
+
+    filter: progid: DXImageTransform.Microsoft.gradient(startColorstr="#439CFB", endColorstr="#F187FB", GradientType=1);
+
+}

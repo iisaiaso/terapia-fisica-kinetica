@@ -1,0 +1,103 @@
+<section id="contacto" class="contactos seccion-clara">
+  <div class="row w-100 px-4">
+    <div class="seccion-titulo text-center mb-3">¡Contactanos!</div>
+    <article class="col-12 col-lg-6 order-lg-1" style="height: 100%">
+      <div>
+        <h3 class="seccion-texto text-center text-uppercase text-secondary">¡Agenda tu cita!</h3>
+      </div>
+      <!-- Formulario -->
+      <div class="mx-auto w-lg-75">
+        <form action="https://formsubmit.co/isaias9872@gmail.com" method="POST">
+          <div class="mb-3">
+            <label class="form-label" for="Nombres">Nombre</label>
+            <input
+              class="form-control form-control-sm"
+              id="Nombres"
+              name="Nombres"
+              placeholder="Escribe tus nombres y apellidos"
+              type="text"
+              required
+            />
+          </div>
+          <div class="mb-3">
+            <label class="form-label" for="Email">Email</label>
+            <input
+              class="form-control form-control-sm"
+              id="Email"
+              name="email"
+              placeholder="Escribe tu correro electronico"
+              type="Email"
+              required
+            />
+          </div>
+          <div class="mb-3">
+            <label class="form-label" for="Celular">Numero de celular</label>
+            <input
+              class="form-control form-control-sm"
+              id="Celular"
+              name="Celular"
+              placeholder="Numero de celular"
+              type="tel"
+              required
+            />
+          </div>
+          <div class="mb-3">
+            <label class="form-label" for="email">Asunto</label>
+            <input
+              class="form-control form-control-sm text-uppercase fw-semibold text-secondary"
+              id="Asunto"
+              name="Asunto"
+              placeholder="Ejemplo: RECERBAR DE CITA"
+              type="text"
+              required
+            />
+          </div>
+          <div class="mb-3">
+            <label class="form-label" for="comments">Comentarios de sintomas </label>
+            <textarea
+              rows="4"
+              class="form-control form-control-sm"
+              id="comments"
+              name="comments"
+              placeholder="Describenos algunos de los sintomas que tiene..."
+              required
+            ></textarea>
+          </div>
+          <div class="row mb-3 d-flex justify-content-center">
+            <div class="col-12 col-lg-5">
+              <input class="btn btn-md btn-primary w-100" type="submit" value="Agendar" />
+              <input type="hidden" name="_next" value="https://kinetica-e5f91.web.app/confirmacion" />
+              <input type="hidden" name="_subject" value="RECERVACIONES DE CITA DE KINETIKA!!" (click)="enviar()" />
+            </div>
+            <div class="text-center col-lg-2 mt-2">
+              <p>Ó</p>
+            </div>
+            <div class="col-12 col-lg-5 whatsapp-link">
+              <a
+                class="btn btn-md btn-success w-100"
+                href="https://api.whatsapp.com/send?phone=51993998501&amp;text=CENTRO TERAPIA FISICA Y QUIROPRAXIA *KINETICA* %0AHola, deseo agendar una cita %0A*Nombres:* %0A*Sintomas:* %20"
+                target="_blank"
+              >
+                <i class="bi bi-whatsapp"></i> Agenda por Whatsapp
+              </a>
+            </div>
+          </div>
+        </form>
+      </div>
+      <!-- Fin Formulario -->
+    </article>
+    <article class="col-12 col-lg-6">
+      <div class="ratio ratio-4x3 d-flex justify-content-center">
+        <iframe
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d622.1867736604077!2d-74.55253365651784!3d-8.386139266744737!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x91a3bd03872ad4e1%3A0xff47be2aeb30b207!2s21%20De%20Octubre%2C%20Pucallpa%2025001!5e1!3m2!1ses-419!2spe!4v1686962176916!5m2!1ses-419!2spe"
+          width="600"
+          height="450"
+          style="border: 0"
+          allowfullscreen=""
+          loading="lazy"
+          referrerpolicy="no-referrer-when-downgrade"
+        ></iframe>
+      </div>
+    </article>
+  </div>
+</section>

@@ -172,48 +172,6 @@
     color: #656060;
 }
 
-/* Contacto */
-.contacto .row {
-    width: 100%;
-    display: flex;
-    align-items: center;
-}
-
-.contacto .descripcion {
-    color: white;
-    font-size: 1.2rem;
-}
-
-.contacto button {
-    color: white;
-    font-weight: bold;
-    background-color: transparent;
-    border: 2px solid white;
-    padding: 10px 15px;
-    margin: 5px;
-    border-radius: 50px;
-    transition: all 0.2s ease-in-out;
-}
-
-.contacto button:hover {
-    background-color: white;
-    color: black;
-}
-
-.contacto button i {
-    color: white;
-    font-size: 1.3rem;
-    transition: all 0.2s ease-in-out;
-}
-
-.contacto button:hover i {
-    color: black;
-}
-
-.contactos {
-    padding-top: 70px;
-    padding-bottom: 70px;
-}
 
 
 /* // `sm` applies to x-small devices (portrait phones, less than 576px) */
@@ -237,20 +195,7 @@
         font-size: 16px;
     }
 
-    .campania {
-        font-family: 'Alfa Slab One', cursive;
-        /* font-weight: bold; */
-        background: hsla(211, 96%, 62%, 1);
 
-        background: linear-gradient(90deg, hsla(211, 96%, 62%, 1) 0%, hsla(295, 94%, 76%, 1) 100%);
-
-        background: -moz-linear-gradient(90deg, hsla(211, 96%, 62%, 1) 0%, hsla(295, 94%, 76%, 1) 100%);
-
-        background: -webkit-linear-gradient(90deg, hsla(211, 96%, 62%, 1) 0%, hsla(295, 94%, 76%, 1) 100%);
-
-        filter: progid: DXImageTransform.Microsoft.gradient(startColorstr="#439CFB", endColorstr="#F187FB", GradientType=1);
-
-    }
 }
 
 /* // `md` applies to small devices (landscape phones, less than 768px) */
@@ -287,28 +232,4 @@
 
 .text-sec {
     color: rgb(229, 229, 53);
-}
-
-.whatsapp-link a {
-    color: white;
-    text-decoration: none;
-    transition: all 0.2s ease-in;
-}
-
-.whatsapp-link i {
-    color: white;
-    /* background-color: darkgreen; */
-    transition: all 0.2s ease-in;
-}
-
-.campania {
-    font-size: 1.6rem;
-    font-family: 'Alfa Slab One', cursive;
-    /* font-weight: bold; */
-    background: hsla(211, 96%, 62%, 1);
-    background: linear-gradient(90deg, hsla(211, 96%, 62%, 1) 0%, hsla(295, 94%, 76%, 1) 100%);
-    background: -moz-linear-gradient(90deg, hsla(211, 96%, 62%, 1) 0%, hsla(295, 94%, 76%, 1) 100%);
-    background: -webkit-linear-gradient(90deg, hsla(211, 96%, 62%, 1) 0%, hsla(295, 94%, 76%, 1) 100%);
-    filter: progid: DXImageTransform.Microsoft.gradient(startColorstr="#439CFB", endColorstr="#F187FB", GradientType=1);
-
 }

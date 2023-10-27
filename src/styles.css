@@ -27,7 +27,13 @@ h1 {
 
 .seccion-titulo {
     font-size: 2rem;
-    padding: 15px 0;
+    font-family: 'Rubik Dirt', cursive;
+}
+
+.seccion-subtitulo {
+    font-size: 1.25rem;
+    color: gray;
+    margin-bottom: 25px;
     font-family: 'Rubik Dirt', cursive;
 }
 

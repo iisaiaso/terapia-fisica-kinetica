@@ -1,0 +1,54 @@
+/* Contacto */
+.contacto .row {
+    width: 100%;
+    display: flex;
+    align-items: center;
+}
+
+.contacto .descripcion {
+    color: white;
+    font-size: 1.2rem;
+}
+
+.contacto button {
+    color: white;
+    font-weight: bold;
+    background-color: transparent;
+    border: 2px solid white;
+    padding: 10px 15px;
+    margin: 5px;
+    border-radius: 50px;
+    transition: all 0.2s ease-in-out;
+}
+
+.contacto button:hover {
+    background-color: white;
+    color: black;
+}
+
+.contacto button i {
+    color: white;
+    font-size: 1.3rem;
+    transition: all 0.2s ease-in-out;
+}
+
+.contacto button:hover i {
+    color: black;
+}
+
+.contactos {
+    padding-top: 70px;
+    padding-bottom: 70px;
+}
+
+.whatsapp-link a {
+    color: white;
+    text-decoration: none;
+    transition: all 0.2s ease-in;
+}
+
+.whatsapp-link i {
+    color: white;
+    /* background-color: darkgreen; */
+    transition: all 0.2s ease-in;
+}
